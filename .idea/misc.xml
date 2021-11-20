@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/drawable/border.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/drawable/border2.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_dash.xml" value="0.264" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_email_login.xml" value="0.264" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_emailandpassword.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_emailsignin.xml" value="0.2" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_signin.xml" value="0.264" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_splashscreen.xml" value="0.176" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/activity_story.xml" value="0.2" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/border.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/emailandpassword.xml" value="0.2" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/introduction.xml" value="0.264" />
+        <entry key="..\:/Users/amita/OneDrive/Desktop/Internship/app/src/main/res/layout/layout.xml" value="0.12318840579710146" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+mAuth = FirebaseAuth.getInstance();
+        FirebaseUser user = mAuth.getCurrentUser();
+        photoUri = null;
+        name = getIntent().getStringExtra("name");
+        if(user!=null && name.isEmpty()){
+            photoUri = user.getPhotoUrl().toString();
+            String dash = user.getDisplayName();
+            dashname.setText(dash);
+            Glide.with(DashActivity.this).load(photoUri).into(cprofile);
+            Toast.makeText(DashActivity.this, "Success", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            photoUri = null;
+
+            if(name != null) {
+                databaseReference = FirebaseDatabase.getInstance().getReference("Signin").child("EmailSignin");
+
+                databaseReference.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        dashname.setText(name);
+                        snap = snapshot.child(name).child("photo").getValue().toString();
+                        Glide.with(DashActivity.this).load(snap).into(cprofile);
+                        Toast.makeText(DashActivity.this, "Finally Done!", Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+                        Toast.makeText(DashActivity.this, "DBException" + error.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+            }
+        }
